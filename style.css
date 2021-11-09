@@ -51,14 +51,3 @@ body {
 }
 
 
-@media all and (max-width: 640px) {
-    .sostanza {
-        width: calc(620px - 110px);
-        
-        
-    }
-
-    #logo {
-        width: calc(10% - 1%);
-    }
-}
