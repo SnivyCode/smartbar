@@ -36,3 +36,26 @@ h3 {
     margin-left: 70px;
     margin-top: -20px;
 }
+
+
+
+@media (max-width: 420px)  {
+    .elemento {
+        width: calc(430px - 50px);
+        background-color: rgb(226, 208, 127);
+    }
+}
+
+@media (max-width: 397px)  {
+    .elemento {
+        width: calc(397px - 50px);
+        background-color: rgb(226, 208, 127);
+    }
+}
+
+@media (max-width: 353px)  {
+    .elemento {
+        width: calc(353px - 50px);
+        background-color: rgb(226, 208, 127);
+    }
+}
