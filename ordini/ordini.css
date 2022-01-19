@@ -1,0 +1,38 @@
+/**Css reset**/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    display: grid;
+    margin-top: 90px;
+    
+}
+
+.elemento {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    height: 75px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#icona {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+h3 {
+    margin-left: 70px;
+    margin-top: -20px;
+}

@@ -1,2 +1,1 @@
-console.log("Sito Online"),
-console.log("Si")
+console.log("Sito Online")

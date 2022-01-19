@@ -38,8 +38,8 @@ h4 {
 
 input {
     outline: none;
-    width: 300px;
-    height: 34px;
+    width: 350px;
+    height: 38px;
     border-radius: 7px;
     font-size: 14px;
     padding-left: 20px;
@@ -47,7 +47,7 @@ input {
     margin-top: 130px;
     z-index: 4;
     border: 1px solid rgb(122, 122, 122);
-    margin-left: 35px;
+    margin-left: 10px;
 }
 
 input::after {
@@ -60,10 +60,10 @@ input::after {
 }
 
 button {
-    height: 34px;
-    width: 300px;
+    height: 38px;
+    width: 350px;
     border-radius: 7px;
     background-color: yellowgreen;
-    margin-left: 35px;
+    margin-left: 10px;
     margin-top: 10px;
 }
