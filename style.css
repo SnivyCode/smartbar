@@ -67,3 +67,18 @@ button {
     margin-left: 10px;
     margin-top: 10px;
 }
+
+
+
+@media (max-width: 380px)  {
+    .LoginBox {
+        width: calc(370px - 50px);
+        
+    }
+
+    input, button {
+        width: calc(350px - 50px);
+    }
+}
+
+

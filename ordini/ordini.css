@@ -21,7 +21,7 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.233);
     border-radius: 10px;
     height: 75px;
-    width: 400px;
+    width: 440px;
     margin: auto;
     margin-top: 10px;
 }
@@ -39,23 +39,30 @@ h3 {
 
 
 
+@media (max-width: 460px)  {
+    .elemento {
+        width: calc(430px - 50px);
+        
+    }
+}
+
 @media (max-width: 420px)  {
     .elemento {
         width: calc(430px - 50px);
-        background-color: rgb(226, 208, 127);
+        
     }
 }
 
 @media (max-width: 397px)  {
     .elemento {
         width: calc(397px - 50px);
-        background-color: rgb(226, 208, 127);
+        
     }
 }
 
 @media (max-width: 353px)  {
     .elemento {
         width: calc(353px - 50px);
-        background-color: rgb(226, 208, 127);
+        
     }
 }
