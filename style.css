@@ -6,8 +6,9 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /**background-image: linear-gradient(45deg, rgb(18, 156, 64), rgb(141, 231, 57));**/
-    object-fit: fill;
+    background-image: url(immagini/wallpaper.jpg);
+    object-fit: cover;
+    background-size: 600px;
     
 }
 
@@ -40,7 +41,7 @@ input {
     outline: none;
     width: 350px;
     height: 38px;
-    border-radius: 7px;
+    border-radius: 37px;
     font-size: 14px;
     padding-left: 20px;
     background-color: transparent;
@@ -50,9 +51,6 @@ input {
     margin-left: 10px;
 }
 
-input::after {
-    border: 1px solid rgb(53, 192, 48);
-}
 
 ::placeholder {
     font-size: 14px;
@@ -62,10 +60,11 @@ input::after {
 button {
     height: 38px;
     width: 350px;
-    border-radius: 7px;
-    background-color: yellowgreen;
+    border-radius: 27px;
+    background-color: rgb(31, 31, 31);
     margin-left: 10px;
     margin-top: 10px;
+    color: white;
 }
 
 
