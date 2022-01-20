@@ -66,3 +66,11 @@ h3 {
         
     }
 }
+
+@media (max-height: 353px)  {
+    .elemento {
+        width: calc(353px - 50px);
+        
+    }
+}
+
