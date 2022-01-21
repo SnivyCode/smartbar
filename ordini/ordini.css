@@ -9,6 +9,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url(../immagini/sfondo.jpg);
+    
+    
 }
 
 #versione {
@@ -52,6 +55,7 @@ h1 {
     width: 440px;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
 }
 
 #icona {
@@ -63,6 +67,7 @@ h1 {
 
 h2 {
     margin-left: 20px;
+    color: rgb(31, 31, 31);
 }
 
 h3 {
