@@ -11,9 +11,25 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#versione {
+    background-color: rgb(32, 32, 32);
+    padding: 13px;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 140px;
+    border-radius: 100px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 15px;
+    top: 10px;
+    color: white;
+}
 #container {
     display: grid;
-    margin-top: 90px;
+    margin-top: 50px;
     
 }
 
@@ -29,14 +45,25 @@ body {
 #icona {
     font-size: 24px;
     margin-top: 24px;
-    margin-left: 30px;
+    margin-left: 20px;
+}
+
+
+h2 {
+    margin-left: 20px;
 }
 
 h3 {
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: -20px;
 }
 
+h4 {
+    margin-right: 15px;
+    margin-top: -20px;
+    text-align: right;
+    
+}
 
 
 @media (max-width: 460px)  {
@@ -63,14 +90,13 @@ h3 {
 @media (max-width: 353px)  {
     .elemento {
         width: calc(353px - 50px);
+    
         
+    }
+
+    h3 {
+        font-size: 14px;
     }
 }
 
-@media (max-height: 353px)  {
-    .elemento {
-        width: calc(353px - 50px);
-        
-    }
-}
 
